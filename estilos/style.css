@@ -28,9 +28,10 @@ html, body {
 .caixa {
     width: 400px;
     border: 3px solid var(--laranja);
-    margin: auto;
-    text-align: center;
-    align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
